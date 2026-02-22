@@ -1,2 +1,2 @@
 [deploy]
-releaseCommand = "bundle exec rails db:prepare db:seed"
+releaseCommand = "bundle exec rails db:schema:load db:seed"
