@@ -2,7 +2,7 @@
 set -e
 
 echo "Running database migrations..."
-bundle exec rails db:prepare db:prepare:queue db:prepare:cache db:prepare:cable
+bundle exec rails db:prepare
 
 echo "Seeding database..."
 bundle exec rails db:seed
